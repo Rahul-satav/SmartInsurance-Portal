@@ -1,0 +1,1 @@
+// Open PDFs from backend; handled via links in UI.
