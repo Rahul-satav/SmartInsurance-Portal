@@ -1,0 +1,12 @@
+Primary API Base:
+https://smartinsurance-api.onrender.com/api
+
+Expected endpoints:
+POST   /auth/login
+POST   /auth/register
+POST   /policy/quote
+POST   /policy/issue
+GET    /policy/my            (auth required)
+GET    /policy/verify/{id}
+GET    /document/policy/{id}.pdf
+GET    /admin/metrics        (auth required; role Admin)

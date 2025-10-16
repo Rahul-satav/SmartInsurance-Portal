@@ -1,0 +1,22 @@
+SmartInsurance Portal – 3 Minute Demo Script
+
+1) Intro (10s)
+Hi, I’m Rahul. This is SmartInsurance Portal – a full-stack insurance demo with Angular UI, Spring Boot microservices, MySQL, JWT auth, PDF+QR, and a live GitHub Pages frontend.
+
+2) Architecture (20s)
+Frontend is static on GitHub Pages. It talks to a hosted Spring Boot backend via an API gateway. We have services for Auth, Policy, Document, and Admin metrics. PDFs include QR that resolves to a verify endpoint.
+
+3) Login (20s)
+Open Login, use user@demo.com / User@1234. Token is stored in localStorage and passed as Authorization: Bearer headers.
+
+4) Calculator (45s)
+Choose vehicle type, age, city tier, liability, and NCB. Click “Get Quote.” You’ll see vehicle premium, liability, GST, and total. Click “Buy Policy” to issue – we get a policyId, download PDF, and see a QR to verify publicly.
+
+5) Dashboard (30s)
+As a logged-in user, view total users, policies, and total premium. Show bar chart for policies by type.
+
+6) Policies (15s)
+List of your issued policies. Open PDF and verify.
+
+7) Wrap (15s)
+Deployed frontend on GitHub Pages, backend on Spring Boot + MySQL. Clean code, scalable microservices, and clear demo storytelling.
